@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    font:300 21px Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.logo{
+    width: 150px;
+    height:120px;
+    display: inline-block;
+    
+}
+header{
+    background-color: #2a2a2a;
+    margin: 0;
+    padding-bottom:0 ;
+    max-width: 100%;
+    position: relative;
+    
+}
+
+header nav{
+    display: inline-block;
+    position:absolute;
+    top:53px;
+    left: 200px;
+    font-size: 25px;
+    white-space: nowrap;
+    
+}
+
+main{
+    background-color: #323232;
+    max-width: 1800px;
+    margin: 0 0;
+    position: relative;
+    
+    
+    
+}
+body h1{
+    margin: 0;
+}
+header nav a{
+    color: #d0a82d;
+    text-decoration: none;
+    margin:10px;
+    font-weight: bold;
+   
+    
+}
+header form{
+    display: inline-block;
+    position: absolute;
+    top:53px ;
+    left: 750px;
+    padding-bottom: 20px;
+    margin-bottom:20px ;
+    font-size: larger;
+    
+}
+
+header form #search-bar{
+    background-image: url(/pictures/search_bar_background.jpg);
+    size: 10px;
+    color: #323232;
+    border: solid;
+     font-size: larger;
+    border-radius: 10px;
+
+}
+body > header > div.f-div > a{
+    display: inline;
+    color: #d0a82d;
+    text-decoration: none;
+    margin:10px;
+    position: absolute;
+    top: 42px;
+    left: 1390px;
+    font-size: 25px;
+}
+
+
+body > header > div.s-div > a{
+    display: inline;
+    color: #d0a82d;
+    text-decoration: none;
+    margin:10px;
+    position: absolute;
+    top: 42px;
+    left: 1300px;
+    font-size: 25px;
+}
+main h1{
+    text-align: center;
+    color:  #b8b8b8;;
+    font-size: 3.2em;
+    font-weight: 5;
+    
+}
+body main div{
+    display: inline-block;
+    padding: 10px;
+    width: 25%;
+    padding-bottom: 50px;
+    
+}
+div.sample1{
+   
+    width: 325px;
+    height: 219px;
+    padding-left: 340px;
+
+
+}
+div.sample2{
+    position: absolute;
+    width: 325px;
+    height: 200px;
+    left:635px ;
+
+}
+div.sample3{
+    position: absolute;
+    left: 955px;
+    width: 325px;
+    height: 219px;
+    padding-right: 0;
+
+}
+h5{
+    font-size: 1.5em;
+    color: #d0a82d;
+    font-weight: bold;
+    
+}
+main div{
+    color: #b8b8b8;
+}
+
+main{
+    box-shadow: 5px 10px 5px #2a2a2a;
+}
+footer{
+    background-color: #3d1e1e;
+    padding:60px;
+
+}
+footer p {
+    font-size: 1.5em;
+    color: #b8b8b8;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
